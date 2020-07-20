@@ -1,0 +1,26 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.7;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.navigation {
+  padding: 40px 0;
+  background-image: url(https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
