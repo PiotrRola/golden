@@ -11,7 +11,7 @@ body {
 
 .navigation {
   padding: 40px 0;
-  background-image: url(https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-image: url(https://images.pexels.com/photos/4186329/pexels-photo-4186329.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -40,7 +40,7 @@ body {
   text-decoration: none;
   text-align: right;
   margin-right: 20px;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .special {
@@ -57,11 +57,13 @@ li .special {
 
 .Splash {
   text-align: center;
-  color: white text-;
+  color: white;
 }
 
-.page-title {
-  font-size: 25px;
+.page-title .page-subtitle {
+  font-size: 15px;
+  font-family: 'Pacifico', cursive;
+  color: white;
 }
 
 .page-subtitle {
@@ -91,5 +93,25 @@ li .special {
 .btn:hover {
   background-position: 0 100%;
   color: #2c2c54;
+}
+
+.container {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.container p {
+  font-style: italic;
+}
+
+i {
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 50%;
+  text-align: center;
+  border: orange solid;
+  color: orange;
 }
 /*# sourceMappingURL=style.css.map */
