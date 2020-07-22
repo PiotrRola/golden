@@ -18,6 +18,9 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
     }
 .navigation a {
     
@@ -65,8 +68,8 @@ li .special {
    color: white
    
 }
-.page-title .page-subtitle {
-    font-size: 15px;
+.page-title {
+    font-size: 30px;
     font-family: 'Pacifico', cursive;
     color: white;
 }
@@ -107,13 +110,56 @@ li .special {
     font-style: italic;
 }
 i {
-    line-height: 60px;
     width: 60px;
     height: 60px;
     font-size: 20px;
     border-radius: 50%;
     text-align: center;
+    padding: 10px;
     border: orange solid;
     color: orange;
-
 }
+.portfolio {
+    .pictures{
+        img{
+            width: 100%;
+        }
+    }
+}
+.portfolio {
+    background-color: rgb(245, 238, 238);
+    margin: 75px 0px;
+}
+.portfolio {
+    .card {
+        background-color: white;   
+    }
+}
+.portfolio {
+    .col-lg-4 {
+        margin-bottom: 30px;
+    }
+}
+.portfolio {
+    .container {
+        .section-title{
+            
+            padding-top: 75px;
+        }
+
+
+    }
+}
+.col-sm-4 i {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    
+}
+
